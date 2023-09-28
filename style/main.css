@@ -3,11 +3,38 @@
     padding: 0;
     margin: 0;
 }
+html{
+    font-size: 10px;
+}
+:root
+{
+    --circulation-color: #B5B5BD;
+    --h2_3-color: #666666;
+    --cataloghref-color: #7875FE;
+    --text-color: #85859B;
+    --background-white: #FFFFFF;
+    --background-gray: #EBEBEB;
+    --background-blue_h1_foottext: #4C5866;
+
+}
+h1{
+    color: var(--background-blue_h1_foottext);
+    font-size: 3rem;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+    text-align: left;
+}
 h2{
-    color: #666666;
+    font-size: 2.4rem;
+    color: var(--h2_3-color);
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+    text-align: left;
 }
 h3{
-    color: #666666;
+    font-size: 1.6rem;
+    color: var(--h2_3-color);
+    font-weight: bold;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+    text-align: left;
 }
 header {
     width: 100%;
@@ -18,34 +45,58 @@ main {
 }
 footer {
     width: 100%;
-    height: 148px;
+}
+.morehref{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--cataloghref-color);
+    text-align: left;
+  
 }
 .cataloghref{
+    font-size: 1.8rem;
     display: inline-block;
-    padding: 25px 72px;
-    border: 1px solid #7875FE;
+    padding: 1.4rem 3.8rem;
+    border: 1px solid var(--cataloghref-color);
     text-decoration: none;
-    color: #7875FE
+    color: var(--cataloghref-color);
+    text-align: left;
+}
+.text_14px{
+    font-size: 1.4rem;
+}
+.text_interval170{
+    line-height: 170%;
+}
+.text_interval150{
+    line-height: 150%;
 }
 .text{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
-    color: #85859B;
-    font-size: 16px;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-align: left;
 }
 .circulation{
-    color: #B5B5BD;
-    font-size: 14px;
+    color: var(--circulation-color);
+    font-size: 1.4rem;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+    text-align: left;
 }
 .backwhite
 {
-    background-color: #FFFFFF;
+    background-color: var(--background-white);
 }
 .backgray
 {
-    background-color: #EBEBEB;
+    background-color: var(--background-gray);
 }
 .backblue
 {
-    background-color: #4C5866;  
+    background-color: var(--background-blue_h1_foottext);  
+}
+.foottext{
+    color: var(--background-blue_h1_foottext);
+    font-size: 1.3rem;
+    text-align: center;
 }
