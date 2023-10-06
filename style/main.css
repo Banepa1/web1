@@ -126,3 +126,16 @@ box-sizing: content-box;
 .otstup{
     margin: 0 15px;
 }
+.zagolovok{
+    color: #333333;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.verxpanel{
+    display: inline;
+}
