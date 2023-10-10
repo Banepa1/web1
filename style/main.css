@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+   
     padding: 0;
     margin: 0;
 }
@@ -19,15 +19,22 @@ html{
 }
 h1{
     color: var(--background-blue_h1_foottext);
-    font-size: 3rem;
+    font-size: 30px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
     text-align: left;
+    font-weight: normal;
+    width: 22.1rem;
+    height: 6rem;
+    margin: 0 0 0 0;
+    box-sizing: content-box;
 }
 h2{
     font-size: 2.4rem;
     color: var(--h2_3-color);
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
     text-align: left;
+    margin-top: 2rem;
+    font-weight: normal;
 }
 h3{
     font-size: 1.6rem;
@@ -35,6 +42,7 @@ h3{
     font-weight: bold;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
     text-align: left;
+    font-weight: normal;
 }
 header {
     width: 320px;
@@ -54,7 +62,8 @@ footer {
     text-decoration: none;
     color: var(--cataloghref-color);
     text-align: left;
-  
+    width: 12.9rem;
+    height: 2.3rem;
 }
 .cataloghref{
     font-size: 1.8rem;
@@ -64,6 +73,9 @@ footer {
     text-decoration: none;
     color: var(--cataloghref-color);
     text-align: left;
+}
+.text_margin_14_0_0_0{
+    margin: 1.4rem 0 0 0;
 }
 .text_14px{
     font-size: 1.4rem;
@@ -85,22 +97,20 @@ footer {
     font-size: 1.4rem;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
     text-align: left;
+    margin: 0.4rem 0 0.6rem 0;
 }
 .backwhite
 {
     background-color: var(--background-white);
-    box-sizing: content-box;
     
 }
 .backgray
 {
     background-color: var(--background-gray);
-   
 }
 .backblue
 {
     background-color: var(--background-blue_h1_foottext);  
-    
 }
 .foottext{
     color: var(--background-blue_h1_foottext);
@@ -108,6 +118,10 @@ footer {
     text-align: center;
     display: inline;
     margin: 0.3rem;
+}
+.iconssimple{
+    margin: 2rem 9rem 1.5rem 9rem;
+    box-sizing: content-box;
 }
 .icons{
 display: inline;
@@ -120,11 +134,24 @@ box-sizing: content-box;
 .margin_20_0_30_0{
     margin: 2rem 0 3rem 0;
 }
+.margin_20_0_0_0{
+    margin: 2rem 0 0 0;
+}
+
 .margin_0_0_60_0{
     margin:  0 0 6rem 0;
 }
+.margin_0_0_120_0{
+    margin:  0 0 12rem 0;
+}
 .otstup{
     margin: 0 15px;
+}
+.padding_60_0{
+    padding: 60px 0;
+}
+.padding_49_0_49_0{
+    padding: 49px 0 49px 0;
 }
 .zagolovok{
     color: #333333;
@@ -138,4 +165,117 @@ box-sizing: content-box;
 }
 .verxpanel{
     display: inline;
+}
+.divmorehref{
+    margin: 3rem 0 6rem 0;
+}
+.cartonresultsize{
+    width: 13rem;
+    height: 9.6rem;
+    margin-top: 1.9rem;
+}
+.versionsize{
+    width: 2.3rem;
+    height: 2.4rem;
+}
+.resultsize{
+    width: 13rem;
+    height: 4.8rem;
+}
+.openboxsize{
+    width: 29rem;
+    height: 22.3rem;
+}
+.beliznasize{
+    width: 27rem;
+    height: 2.4rem;
+}
+.beliznatextsize{
+    width: 29rem;
+    height: 33.4rem;
+}
+.section3imagesize{
+    width: 29rem;
+    height: 18rem;
+}
+.upakovka{
+    width: 10.7rem;
+    height: 2.8rem;
+}
+.tiragsize1{
+    width: 11.9rem;
+    height: 1.6rem;
+}
+.tiragsize1{
+    width: 12.7rem;
+    height: 1.6rem;
+}
+.tovarovextsize{
+    width: 29rem;
+    height: 10.8rem;
+}
+.companisesiaze{
+    width: 15rem;
+    height: 8rem;
+}
+.sketchbooksize{
+    width: 29rem;
+    height: 22.1rem;
+}
+.sketchbooksizehead{
+    width: 18rem;
+    height: 2.4rem;
+}
+.poketsize{
+    width: 8.6rem;
+    height: 2.8rem;
+}
+.keyssize{
+    width: 7.3rem;
+    height: 2.8rem;
+}
+.othersize{
+    width: 18rem;
+    height: 2.8rem;
+}
+.sketchbooktextsize{
+    width: 28.9rem;
+    height: 10.8rem;
+}
+.h1text{
+    width: 28.9rem;
+    height: 8.4rem;
+}
+.menu{
+    width: 3rem;
+    height: 3rem;
+    margin: 1.4rem 0 1.4rem 0;
+}
+.search{
+    width: 2.4rem;
+    height: 3rem;
+    margin: 1.4rem 3rem 0.8rem 17.5rem;
+}
+.log_in{
+    width: 2.4rem;
+    height: 3rem;
+    margin: 1.4rem 0 1.4rem 0;
+}
+.simple{
+    margin: 1.1rem 9rem 1.2rem 9rem;
+}
+.inline{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.divversionsize{
+    width: 29rem;
+    height: 11.6rem;
+}
+.versionfloat{
+    padding: 3.1rem 0;
+    float: right;
+}
+.headtext{
+    margin: 1.5rem 0 2.1rem 0;
 }
