@@ -144,6 +144,13 @@ box-sizing: content-box;
 .margin_0_0_120_0{
     margin:  0 0 12rem 0;
 }
+.knopochki{
+    display: flex;
+width: 320px;
+justify-content: center;
+align-items: center;
+gap: 182px;
+}
 .otstup{
     margin: 0 15px;
 }
