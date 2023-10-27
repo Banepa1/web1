@@ -128,6 +128,21 @@ display: inline;
 margin: 2rem 1.5rem;
 box-sizing: content-box;
 }
+.menu{
+    width: 3rem;
+    height: 3rem;
+    margin: 1.4rem 0 1.4rem 0;
+}
+.search{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 1.6rem 3rem 0.8rem 17.5rem;
+}
+.log_in{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 1.6rem;
+}
 .margin_60_0_0_0{
     margin: 6rem 0 0 0;
 }
@@ -143,6 +158,14 @@ box-sizing: content-box;
 }
 .margin_0_0_120_0{
     margin:  0 0 12rem 0;
+}
+.margin_0_114_0_114{
+    margin: 0 11.4rem 0 11.4rem;  
+    display: flex;
+}
+.margin_0_0_0_54{
+    margin: 0 0 0 5.4rem;  
+    display: flex;
 }
 .knopochki{
     display: flex;
@@ -253,21 +276,6 @@ gap: 182px;
     width: 28.9rem;
     height: 8.4rem;
 }
-.menu{
-    width: 3rem;
-    height: 3rem;
-    margin: 1.4rem 0 1.4rem 0;
-}
-.search{
-    width: 2.4rem;
-    height: 3rem;
-    margin: 1.4rem 3rem 0.8rem 17.5rem;
-}
-.log_in{
-    width: 2.4rem;
-    height: 3rem;
-    margin: 1.4rem 0 1.4rem 0;
-}
 .simple{
     margin: 1.1rem 9rem 1.2rem 9rem;
 }
@@ -285,4 +293,31 @@ gap: 182px;
 }
 .headtext{
     margin: 1.5rem 0 2.1rem 0;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.hr1{
+    width: 100%; 
+    color: #DDDDDD;
+}
+.hr2{
+    width: 100%; 
+    color: #C0C0C0;
+}
+.hr3{
+    width: 90%; 
+    color: #DDDDDD;
+}
+.flex{
+    display: flex;
 }
