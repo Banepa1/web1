@@ -33,7 +33,7 @@ h2{
     color: var(--h2_3-color);
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
     text-align: left;
-    margin-top: 2rem;
+    
     font-weight: normal;
 }
 h3{
@@ -131,17 +131,17 @@ box-sizing: content-box;
 .menu{
     width: 3rem;
     height: 3rem;
-    margin: 1.4rem 0 1.4rem 0;
+   
 }
 .search{
     width: 2.4rem;
     height: 2.4rem;
-    margin: 1.6rem 3rem 0.8rem 17.5rem;
+
 }
 .log_in{
     width: 2.4rem;
     height: 2.4rem;
-    margin-top: 1.6rem;
+ 
 }
 .margin_60_0_0_0{
     margin: 6rem 0 0 0;
@@ -177,8 +177,8 @@ gap: 182px;
 .otstup{
     margin: 0 15px;
 }
-.padding_60_0{
-    padding: 60px 0;
+.padding_60_15{
+    padding: 60px 15px;
 }
 .padding_49_0_49_0{
     padding: 49px 0 49px 0;
@@ -197,12 +197,12 @@ gap: 182px;
     display: inline;
 }
 .divmorehref{
-    margin: 3rem 0 6rem 0;
+    margin: 3rem 0 0 0;
 }
 .cartonresultsize{
     width: 13rem;
     height: 9.6rem;
-    margin-top: 1.9rem;
+
 }
 .versionsize{
     width: 2.3rem;
@@ -236,7 +236,7 @@ gap: 182px;
     width: 11.9rem;
     height: 1.6rem;
 }
-.tiragsize1{
+.tiragsize2{
     width: 12.7rem;
     height: 1.6rem;
 }
@@ -288,7 +288,6 @@ gap: 182px;
     height: 11.6rem;
 }
 .versionfloat{
-    padding: 3.1rem 0;
     float: right;
 }
 .headtext{
@@ -320,4 +319,88 @@ gap: 182px;
 }
 .flex{
     display: flex;
+}
+.flex-item-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-self: left;
+    justify-content: left;
+    align-items: left;
+}
+.flex-column-carton{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.flexcarton{
+    display: flex;
+    padding: 20px 0 0 0;
+    column-gap: 30px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.flex-clomn-60{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    align-items: center;
+}
+.flex-row{
+    display: flex;
+    column-gap: 30px;
+    row-gap: 30px;
+    align-self: center;
+    justify-content: center;
+}
+.padding_20{
+    padding: 20px 0;
+}
+.flex-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.simplesize{
+    height: 22px;
+    width: 140px;
+}
+.flex-icons{
+    column-gap: 30px;
+    display: flex;
+}
+.flex-icons-header{
+    display: flex;
+    padding: 15px 0;
+    column-gap: 182px;
+    align-items: center;
+    justify-content: center;
+}
+.flex-search-exit{
+    display: flex;
+    column-gap: 30px;
+}
+.margin_10_0{
+    margin: 10 0;
+}
+.flex-item-center1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
 }
