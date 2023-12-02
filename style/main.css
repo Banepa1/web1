@@ -428,5 +428,33 @@ gap: 182px;
 }
 .grid{
     display: grid;
+    grid-template-columns: 200px 302px 302px 302px;
+    grid-template-rows: 280px 280px 280px;
+    column-gap: 10px;
+    row-gap:  10px;
+    grid-template-areas: 
+    "panel osnova-head osnova-head osnova-head"
+    "panel osnova-main osnova-main osnova-main"
+    "panel osnova-foot osnova-foot osnova-foot"
+    ;
+}
+.box1{
+    grid-area: panel;
+}
+.box2{
+    grid-area: osnova-head;
+}
+.box3{
+    grid-area: osnova-main;
+}
+.box4{
+    grid-area: osnova-foot;
+}
+.RAM{
     
 }
+
+
+  
+  
+  
