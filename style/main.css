@@ -426,6 +426,9 @@ gap: 182px;
     row-gap: 60px;
     justify-content: center;
 }
+
+
+
 .grid{
     display: grid;
     grid-template-columns: 200px 302px 302px 302px;
