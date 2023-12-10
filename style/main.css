@@ -23,8 +23,10 @@ h1{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell;
     text-align: left;
     font-weight: normal;
-    width: 22.1rem;
-    height: 6rem;
+    min-width: 22.1rem;
+    min-height: 6rem;
+    max-width: 44.4rem;
+    max-height: 12rem;
     margin: 0 0 0 0;
     box-sizing: content-box;
 }
@@ -395,7 +397,6 @@ gap: 182px;
     display: flex;
     padding: 15px 0;
     
-    align-items: center;
     justify-content: space-between;
 }
 .flex-search-exit{
@@ -491,6 +492,29 @@ gap: 182px;
 .hide-pic{
     overflow:hidden;
 }
+.head1{
+    display: none;
+}
+.head2{
+    display: block;
+}
+.nav1{
+    display: block;
+}
+.nav2{
+    display: none;
+}
+.menus{
+color: #4C5866;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nav5{
+    display: none;
+}
 @media screen and (max-width:576px){
     .LONG{
         display: none;
@@ -516,8 +540,42 @@ gap: 182px;
         max-height: 416px;
         padding: 20px 0 0 0;
     }
+    .text_14px{
+        font-size: 1.6rem;
+    }
+    h1{
+        font-size: 38px;
+    }
+    .cataloghref{
+        font-size: 18px;
+        padding: 1.8rem 6rem;
+    }
+    .head2{
+    display: none;
+    }
+    .head1{
+        display: block; 
+    }
+    .otstup{
+        margin: 0 39px;
+    }
+    .flex-item-center1{
+        justify-content: space-between;
+    }
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        display: block;
+    }
+    .flex-icons-header{
+        justify-content: space-between;   
+    }
+    .nav3{
+        display: none;
+    }
 }  
-@media screen and (max-width:1440px) and (min-width: 768px){
+@media screen and (max-width:1439px) and (min-width: 768px){
     .LONG {
         object-fit: cover;
         width: 100%;
@@ -533,8 +591,42 @@ gap: 182px;
         max-height: 470px;
         padding: 60px 0 0 0;
     }
+    .text_14px{
+        font-size: 1.8rem;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .cataloghref{
+        font-size: 20px;
+        padding: 2.2rem 8.9rem;
+    }
+    .head2{
+        display: none;
+    }
+    .head1{
+         display: block;
+    }
+    .otstup{
+        margin: 0 39px;
+    }
+    .flex-item-center1{
+        justify-content: space-between;
+    }
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        display: block;
+    }
+    .flex-icons-header{
+        justify-content: space-between;
+    }
+    .nav3{
+        display: none;
+    }
 }
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1439px){
     .LONG{
         object-fit: cover;
         width: 100%;
@@ -547,6 +639,48 @@ gap: 182px;
     }
     .padding_49_0_49_0{
         max-height: 620px;
-        padding: 60px 0 0 0;
+   
     }
+    .text_14px{
+        font-size: 1.8rem;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .cataloghref{
+        font-size: 20px;
+        padding: 2.6rem 8.9rem;
+    }
+    .head2{
+        display: none;
+    }
+    .head1{
+    display: block;
+    }
+    .otstup{
+        margin: 0 165px;
+    }
+    .flex-item-center1{
+        height: 69px;
+        justify-content: space-between;
+    }
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+    .flex-icons-header{
+        justify-content: space-between;
+    }
+    .nav3{
+        display: none;
+    }
+    .nav4{
+        display: none;
+    }
+    .nav5{
+        display: block;
+    }
+   
 }
