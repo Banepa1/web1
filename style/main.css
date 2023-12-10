@@ -187,9 +187,7 @@ gap: 182px;
 .padding_60_15{
     padding: 60px 15px;
 }
-.padding_49_0_49_0{
-    padding: 49px 0 49px 0;
-}
+
 .zagolovok{
     color: #333333;
     background: none;
@@ -332,6 +330,7 @@ gap: 182px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 .flex-column{
     display: flex;
@@ -489,7 +488,65 @@ gap: 182px;
     grid-column: -1/1;
     grid-row-start: 1;
 }
-
-  
-  
-  
+.hide-pic{
+    overflow:hidden;
+}
+@media screen and (max-width:576px){
+    .LONG{
+        display: none;
+    }
+    .padding_49_0_49_0{
+        max-height: 328px;
+        padding: 49px 0 49px 0;
+    }
+}
+@media screen and (max-width:768px) and (min-width: 576px){
+    .LONG {
+        object-fit: cover;
+        width: 100%;
+    }
+    .LONGBOX{
+        min-height: 328px;
+        min-width: 195px;
+        max-width: 270px;
+        max-height: 410px;
+        margin-left:29px;
+    }
+    .padding_49_0_49_0{
+        max-height: 416px;
+        padding: 20px 0 0 0;
+    }
+}  
+@media screen and (max-width:1440px) and (min-width: 768px){
+    .LONG {
+        object-fit: cover;
+        width: 100%;
+    }
+    .LONGBOX{
+        min-height: 410px;
+        min-width: 270px;
+        max-width: 470px;
+        max-height: 410px;
+        margin-left: 30px;
+    }
+    .padding_49_0_49_0{
+        max-height: 470px;
+        padding: 60px 0 0 0;
+    }
+}
+@media screen and (min-width: 1440px){
+    .LONG{
+        object-fit: cover;
+        width: 100%;
+        margin-top: 600px;
+    }
+    .LONGBOX{
+        min-height: 560px;
+        min-width: 540px;
+        margin-left:125px; 
+    }
+    .padding_49_0_49_0{
+        max-height: 620px;
+        padding: 60px 0 0 0;
+    }
+}
