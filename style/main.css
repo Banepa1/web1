@@ -549,6 +549,11 @@ line-height: normal;
 .margin_carton{
     margin-bottom: 60px;
 }
+.sketchbooksize1{
+    width: 730px;
+    height: 100px;
+    overflow: hidden;
+}
 @media screen and (max-width:576px){
     .LONG{
         display: none;
@@ -565,6 +570,12 @@ line-height: normal;
     {
         width: 289px;
         margin: 15px 0;
+    }
+    .sketch1{
+        display: none;
+    }
+    .sketch2{
+        display: block;
     }
 }
 @media screen and (max-width:768px) and (min-width: 576px){
@@ -667,6 +678,13 @@ line-height: normal;
     .padding_20{
         padding: 20px 33px;
     }
+    .sketch1{
+        display: none;
+    }
+    .sketch2{
+        display: block;
+    }
+   
 }  
 @media screen and (max-width:1439px) and (min-width: 768px){
     .LONG {
@@ -776,6 +794,11 @@ line-height: normal;
         width: 449px;
         height: 341px;
     }
+    .sketchbooksize1{
+        width: 730px;
+        height: 200px;
+        overflow: hidden;
+    }
     .sketchbooktextsize
     {
         width: 330px;
@@ -804,6 +827,12 @@ line-height: normal;
     }
     .padding_20{
         padding: 20px 39px;
+    }
+    .sketch1{
+        display: none;
+    }
+    .sketch2{
+        display: block;
     }
 }
 @media screen and (min-width: 1439px){
@@ -923,6 +952,11 @@ line-height: normal;
         height: 555px;
         overflow: hidden;
     }
+    .sketchbooksize1{
+        width: 730px;
+        height: 400px;
+        overflow: hidden;
+    }
     .sketchbooktextsize
     {
         width: 330px;
@@ -962,4 +996,11 @@ line-height: normal;
     .padding_20{
         padding: 20px 162px;
     }
+    .sketch1{
+        display: block;
+    }
+    .sketch2{
+        display: none;
+    }
+
 }
