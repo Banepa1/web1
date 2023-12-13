@@ -9,6 +9,11 @@ html{
     overflow-x: hidden;
     height: 100%;
 }
+::selection{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.525);
+}
+
 body{
     height: 100%;
 }
@@ -30,6 +35,26 @@ body > footer {
 .form{
     text-decoration: none;
     color: var(--background-blue_h1_foottext);
+}
+a:hover{
+    color:#211ef9;
+    background-color: #cecdffa1;
+}
+a:active{
+    box-shadow: 2px 2px 5px #cecdffa1;
+}
+a:focus{
+    background-color: rgba(239, 202, 255, 0.527);
+}
+button:hover{
+    color:#211ef9;
+    background-color: #cecdffa1;
+}
+button:active{
+    box-shadow: 2px 2px 5px #cecdffa1;   
+}
+button:focus{
+    background-color: rgba(239, 202, 255, 0.527);
 }
 :root
 {
@@ -737,6 +762,11 @@ line-height: normal;
     
 }  
 @media screen and (max-width:1439px) and (min-width: 768px){
+    .flexihe2{
+        max-width: 750px;
+        justify-content: center;
+        align-items: center;
+    }
     .LONG {
         object-fit: cover;
         width: 100%;
@@ -1074,17 +1104,6 @@ line-height: normal;
 .form{
    max-width: 70%;
 }
-input[type="submit"],
-button {  
-  transition: transform 1s, background-color 0.5s;
-}
-input[type="submit"]:hover,
-button:hover {
-  background-color: rgb(35, 255, 108);
-  transform: scale(1.2);
-  cursor: pointer;
-}
-button:disabled {
-  transform: initial;
-  background-color: lightgray;
+.logo{
+    transform: rotate(30deg) scale(1.5) skewX(20deg) skewY(20deg);
 }
