@@ -7,8 +7,26 @@
 html{
     font-size: 10px;
     overflow-x: hidden;
-height: 100%;
+    height: 100%;
 }
+body{
+    height: 100%;
+}
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
+#aboutus{}
+#contacts{}
+#materials{}
+#production{}
+#more{}
+#more1{}
+#more2{}
+#more3{}
+#catalog1{}
+#catalog2{}
+#footimg{}
 .form{
     text-decoration: none;
     color: var(--background-blue_h1_foottext);
@@ -107,6 +125,16 @@ footer {
     color: var(--text-color);
     font-size: 1.6rem;
     text-align: left;
+}
+.pole{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 10px;
+}     
+.mar{
+    margin-bottom: 10px;
 }
 .circulation{
     color: var(--circulation-color);
@@ -270,6 +298,7 @@ gap: 182px;
 .sketchbooksizehead{
     width: 18rem;
     height: 2.4rem;
+    color: var(--h2_3-color);
 }
 .poketsize{
     width: 8.6rem;
@@ -554,6 +583,9 @@ line-height: normal;
     height: 100px;
     overflow: hidden;
 }
+.lebel{
+    background-color: #f1f1f1;
+}
 @media screen and (max-width:576px){
     .LONG{
         display: none;
@@ -576,6 +608,15 @@ line-height: normal;
     }
     .sketch2{
         display: block;
+    }
+    .pole{
+        font-size: 8px;
+    }
+    .legend{
+        font-size: 24px;
+        width: 100%;
+        height: 100%;
+        color: var(--h2_3-color);
     }
 }
 @media screen and (max-width:768px) and (min-width: 576px){
@@ -684,7 +725,16 @@ line-height: normal;
     .sketch2{
         display: block;
     }
-   
+    .pole{
+        font-size: 8px;
+    } 
+    .legend{
+        font-size: 24px;
+        width: 100%;
+        height: 100%;
+        color: var(--h2_3-color);
+    }
+    
 }  
 @media screen and (max-width:1439px) and (min-width: 768px){
     .LONG {
@@ -818,6 +868,12 @@ line-height: normal;
         font-size: 30px;
         width: 225px;
     }
+    .legend{
+        width: 100%;
+        height: 100%;
+        color: var(--h2_3-color);
+        font-size: 30px;
+    }
     .hr3
     {
         display: none;
@@ -833,6 +889,9 @@ line-height: normal;
     }
     .sketch2{
         display: block;
+    }
+    .pole{
+        font-size: 10px;
     }
 }
 @media screen and (min-width: 1439px){
@@ -986,6 +1045,12 @@ line-height: normal;
         font-size: 40px;
         width: 299px;
     }
+    .legend{
+        width: 100%;
+        height: 100%;
+        color: var(--h2_3-color);
+        font-size: 40px;
+    }
     .hr3
     {
         display: none;
@@ -1002,5 +1067,24 @@ line-height: normal;
     .sketch2{
         display: none;
     }
-
+    .pole{
+        font-size: 10px;
+    }
+}
+.form{
+   max-width: 70%;
+}
+input[type="submit"],
+button {  
+  transition: transform 1s, background-color 0.5s;
+}
+input[type="submit"]:hover,
+button:hover {
+  background-color: rgb(35, 255, 108);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+button:disabled {
+  transform: initial;
+  background-color: lightgray;
 }

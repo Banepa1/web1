@@ -40,8 +40,32 @@
         </div>
        <hr  class="hr1 nav4">
     </header>
-    <main>
-        
+    <main class="flex-column2">
+        <h1>Форма</h1>
+        <form action="//httpbin.org/post" method="post">
+            <fieldset class="mar">
+                <legend class="legend">Личная информация</legend>
+                <p class="pole"><lable class="text">Имя <input type="text" name="text-field" placeholder="Имя*" required class="lebel"></lable><br>Поле обязательно для заполнения</p>
+                <p class="pole"><label class="text">Дата рождения<input type="date" name="Дата рождения" class="lebel"></label><br>Поле обязательно для заполнения</p>
+                <p class="pole"><label class="text">Пол <select name="quantity" required>
+                    <option value="М">М</option>
+                    <option value="Ж">Ж</option>
+                  </select><label></p>
+                <p class="pole"><lable for="password"  class="text">Пароль <input type="password" name="password" id="password" value="password" class="lebel"></lable><br>Поле обязательно для заполнения</p>
+            </fieldset>
+            <fieldset class="mar">
+                <legend class="legend">Контактные данные</legend>
+                <p class="pole"><label class="text">email <input type="email" name="email" placeholder="buben@mail.ru" class="lebel"></label><br>Поле обязательно для заполнения</p>
+                <p class="pole"><label class="text">Телефон <input type="tel" name="tel"  placeholder="8 943 324 54 43"></label></p>
+                <label class="text"><input type="checkbox" name="checked" value="1">Утро</label>
+                <label class="text"><input type="checkbox" name="checked" value="2">День</label>
+                <label class="text"><input type="checkbox" name="checked" value="3">Вечер</label>
+                <label class="text"><input type="checkbox" name="checked" value="4">Ночь</label>
+            </fieldset>
+            <button type="submit" class="mar">Отправить</button>          
+              <br>
+            <button type="reset" disabled class="mar">Сбросить</button>
+        </form>
     </main>
     <footer>
         <section class="backblue padding_20 flex-footer">
